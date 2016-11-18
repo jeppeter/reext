@@ -8,6 +8,7 @@ gradle.projectsEvaluated {
 }
 
 apply plugin: 'java'
+apply from: './maven-push.gradle'
 dependencies {
     testCompile 'junit:junit:4.11'
 }
