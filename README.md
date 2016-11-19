@@ -1,6 +1,20 @@
 # reext
 > java regular expression extension library
 
+Maven configuration:
+
+    <dependency>
+        <groupId>com.github.jeppeter</groupId>
+        <artifactId>reext</artifactId>
+        <version>1.0</version>
+    </dependency>
+
+Gradle configuration
+
+```groovy
+    compile group: 'com.github.jeppeter', name: 'reext', version: '1.0'
+```
+
 ### Split string
 ```java
     import com.github.jeppeter.reext.ReExt;
